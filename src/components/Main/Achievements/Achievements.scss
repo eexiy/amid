@@ -1,0 +1,30 @@
+.achievements {
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        &-title {
+            max-width: 534px;
+            width: 100%;
+            font-size: 36px;
+            line-height: 80px;
+            color: #021D1A;
+            font-family: 'Poppins';
+            margin-bottom: 0px;
+
+            span {
+                color: #FF823B;
+            }
+        }
+
+        button {
+            background: #FF823B;
+            color: white;
+        }
+    }
+
+    &__right {
+        margin-bottom: 100px;
+    }
+
+}

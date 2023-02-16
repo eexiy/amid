@@ -1,0 +1,27 @@
+.blog {
+    margin-bottom: 140px;
+    &__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 80px;
+            color: #021D1A;
+            margin: 25px 0;
+        }
+
+        &-desc {
+            font-family: 'Roboto';
+            font-size: 18px;
+            line-height: 30px;
+            color: #464646;
+            text-align: center;
+            max-width: 662px;
+            width: 100%;
+        }
+    }
+}

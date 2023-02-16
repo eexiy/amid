@@ -1,0 +1,20 @@
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    row-gap: 29px;
+    margin-bottom: 100px;
+
+    &__logo {
+        background: #F1FAF9;
+        max-width: 255px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        height: 103px;
+    }
+}

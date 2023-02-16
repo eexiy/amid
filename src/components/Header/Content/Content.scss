@@ -1,0 +1,100 @@
+.header {
+    padding-top: 70px;
+    margin: 0 70px;
+    background: #E9FBF9;
+    border-radius: 35px;
+
+    .content {
+        display: flex;
+
+        &__left {
+            &-title {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 64px;
+                line-height: 80px;
+                color: #021D1A;
+                max-width: 570px;
+                width: 100%;
+                margin-top: 34px;
+                margin-bottom: 31px;
+            }
+
+            &-description {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #464646;
+                max-width: 478px;
+                width: 100%;
+            }
+
+            .button {
+                background: #FF823B;
+                color: white;
+                padding: 18px 39px;
+            }
+
+            &-btns {
+                margin-top: 51px;
+                margin-bottom: 106px;
+                display: flex;
+                align-items: center;
+                column-gap: 55px;
+            }
+
+            &-btn {
+                background: none;
+                border: none;
+                display: flex;
+                align-items: center;
+                font-family: 'Roboto';
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                color: #FF823B;
+                column-gap: 10px;
+                cursor: pointer;
+            }
+        }
+
+        &__right {
+            position: relative;
+
+            &-img {
+                position: absolute;
+                left: -2px;
+                bottom: 0;
+                z-index: 22;
+            }
+            
+            &-circle {
+                position: absolute;
+                left: 35px;
+                top: -78px;
+                animation: rotateAnim 10s linear infinite;
+            }
+
+            &-poster {
+                z-index: 23;
+                position: absolute;
+                left: 0;
+                bottom: -60px;
+            }
+        }
+    }
+}
+
+@keyframes rotateAnim {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

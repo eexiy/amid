@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "companyName": "Netflix",
+        "logo": "./companies/netflix.png"
+    },
+    {
+        "id": "2",
+        "companyName": "Forbes",
+        "logo": "./companies/forbes.png"
+    },
+    {
+        "id": "3",
+        "companyName": "Itel",
+        "logo": "./companies/Itel.png"
+    },
+    {
+        "id": "4",
+        "companyName": "Fedex",
+        "logo": "./companies/fedex.png"
+    },
+    {
+        "id": "5",
+        "companyName": "Audiomack",
+        "logo": "./companies/audiomack.png"
+    },
+    {
+        "id": "6",
+        "companyName": "Penguines",
+        "logo": "./companies/penguines.png"
+    },
+    {
+        "id": "7",
+        "companyName": "Unknown",
+        "logo": "./companies/unknown.png"
+    },
+    {
+        "id": "8",
+        "companyName": "GoToMeeting",
+        "logo": "./companies/goToMeeting.png"
+    }
+]

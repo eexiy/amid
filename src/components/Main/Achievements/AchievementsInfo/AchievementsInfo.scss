@@ -1,0 +1,63 @@
+.achievements__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 58px;
+    margin-top: 70px;
+
+    p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 80px;
+        color: rgba(18, 79, 72, 0.37);
+        animation: Anim 5s ease infinite;
+    }
+
+    h3 {
+        font-family: 'Roboto';
+        font-size: 18px;
+        line-height: 26px;
+        color: #124F48;
+        max-width: 122px;
+        width: 100%;
+    }
+
+    span {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FF823B;
+        animation: Anim3 8s linear infinite;
+    }
+
+}
+
+@keyframes Anim {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes Anim3 {
+    0% {
+        transform: translateX(40px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(40px);
+    }
+}

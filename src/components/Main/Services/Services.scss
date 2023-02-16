@@ -1,0 +1,33 @@
+.services {
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-title {
+            max-width: 534px;
+            width: 100%;
+            font-size: 43px;
+            line-height: 80px;
+            color: #021D1A;
+            font-family: 'Poppins';
+        }
+
+        &-description {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #464646;
+            max-width: 428px;
+            width: 100%;    
+        }
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
